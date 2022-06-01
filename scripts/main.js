@@ -69,8 +69,6 @@ const renderIdingred= (info) => {
     })
 }
 const getIdCock = async(id_cock1)=>{
-    // e.preventDefault()
-    // const value = input.value
     const url = API_id_cock+id_cock1
     const req = await fetch(url)
     const res = await req.json()
@@ -155,12 +153,7 @@ const renderIdCock = (info) => {
         ingredient1_id.addEventListener('click', () => {
             output.innerHTML = ''
             let spin = document.createElement('iframe')
-            spin.style.cssText =
-            `
-            margin-top: 150px;
-            height: 200px;
-            width: 200px;
-            `
+            spin.classList.add('spin')
             spin.setAttribute('frameborder', '0')
             spin.src = './picture/spin1.gif'
             
@@ -173,12 +166,7 @@ const renderIdCock = (info) => {
         ingredient2_id.addEventListener('click', () => {
             output.innerHTML = ''
             let spin = document.createElement('iframe')
-            spin.style.cssText =
-            `
-            margin-top: 150px;
-            height: 200px;
-            width: 200px;
-            `
+            spin.classList.add('spin')
             spin.setAttribute('frameborder', '0')
             spin.src = './picture/spin1.gif'
             
@@ -191,12 +179,7 @@ const renderIdCock = (info) => {
         ingredient3_id.addEventListener('click', () => {
             output.innerHTML = ''
             let spin = document.createElement('iframe')
-            spin.style.cssText =
-            `
-            margin-top: 150px;
-            height: 200px;
-            width: 200px;
-            `
+            spin.classList.add('spin')
             spin.setAttribute('frameborder', '0')
             spin.src = './picture/spin1.gif'
             
@@ -209,12 +192,7 @@ const renderIdCock = (info) => {
         ingredient4_id.addEventListener('click', () => {
             output.innerHTML = ''
             let spin = document.createElement('iframe')
-            spin.style.cssText =
-            `
-            margin-top: 150px;
-            height: 200px;
-            width: 200px;
-            `
+            spin.classList.add('spin')
             spin.setAttribute('frameborder', '0')
             spin.src = './picture/spin1.gif'
             
@@ -227,12 +205,7 @@ const renderIdCock = (info) => {
         ingredient5_id.addEventListener('click', () => {
             output.innerHTML = ''
             let spin = document.createElement('iframe')
-            spin.style.cssText =
-            `
-            margin-top: 150px;
-            height: 200px;
-            width: 200px;
-            `
+            spin.classList.add('spin')
             spin.setAttribute('frameborder', '0')
             spin.src = './picture/spin1.gif'
             
@@ -245,12 +218,7 @@ const renderIdCock = (info) => {
         ingredient6_id.addEventListener('click', () => {
             output.innerHTML = ''
             let spin = document.createElement('iframe')
-            spin.style.cssText =
-            `
-            margin-top: 150px;
-            height: 200px;
-            width: 200px;
-            `
+            spin.classList.add('spin')
             spin.setAttribute('frameborder', '0')
             spin.src = './picture/spin1.gif'
             
@@ -263,12 +231,7 @@ const renderIdCock = (info) => {
         ingredient7_id.addEventListener('click', () => {
             output.innerHTML = ''
             let spin = document.createElement('iframe')
-            spin.style.cssText =
-            `
-            margin-top: 150px;
-            height: 200px;
-            width: 200px;
-            `
+            spin.classList.add('spin')
             spin.setAttribute('frameborder', '0')
             spin.src = './picture/spin1.gif'
             
@@ -281,12 +244,7 @@ const renderIdCock = (info) => {
         ingredient8_id.addEventListener('click', () => {
             output.innerHTML = ''
             let spin = document.createElement('iframe')
-            spin.style.cssText =
-            `
-            margin-top: 150px;
-            height: 200px;
-            width: 200px;
-            `
+            spin.classList.add('spin')
             spin.setAttribute('frameborder', '0')
             spin.src = './picture/spin1.gif'
             
@@ -299,12 +257,7 @@ const renderIdCock = (info) => {
         ingredient9_id.addEventListener('click', () => {
             output.innerHTML = ''
             let spin = document.createElement('iframe')
-            spin.style.cssText =
-            `
-            margin-top: 150px;
-            height: 200px;
-            width: 200px;
-            `
+            spin.classList.add('spin')
             spin.setAttribute('frameborder', '0')
             spin.src = './picture/spin1.gif'
             
@@ -317,12 +270,7 @@ const renderIdCock = (info) => {
         ingredient10_id.addEventListener('click', () => {
             output.innerHTML = ''
             let spin = document.createElement('iframe')
-            spin.style.cssText =
-            `
-            margin-top: 150px;
-            height: 200px;
-            width: 200px;
-            `
+            spin.classList.add('spin')
             spin.setAttribute('frameborder', '0')
             spin.src = './picture/spin1.gif'
             
@@ -335,12 +283,7 @@ const renderIdCock = (info) => {
         ingredient11_id.addEventListener('click', () => {
             output.innerHTML = ''
             let spin = document.createElement('iframe')
-            spin.style.cssText =
-            `
-            margin-top: 150px;
-            height: 200px;
-            width: 200px;
-            `
+            spin.classList.add('spin')
             spin.setAttribute('frameborder', '0')
             spin.src = './picture/spin1.gif'
             
@@ -353,12 +296,7 @@ const renderIdCock = (info) => {
         ingredient12_id.addEventListener('click', () => {
             output.innerHTML = ''
             let spin = document.createElement('iframe')
-            spin.style.cssText =
-            `
-            margin-top: 150px;
-            height: 200px;
-            width: 200px;
-            `
+            spin.classList.add('spin')
             spin.setAttribute('frameborder', '0')
             spin.src = './picture/spin1.gif'
             
@@ -371,12 +309,7 @@ const renderIdCock = (info) => {
         ingredient13_id.addEventListener('click', () => {
             output.innerHTML = ''
             let spin = document.createElement('iframe')
-            spin.style.cssText =
-            `
-            margin-top: 150px;
-            height: 200px;
-            width: 200px;
-            `
+            spin.classList.add('spin')
             spin.setAttribute('frameborder', '0')
             spin.src = './picture/spin1.gif'
             
@@ -389,12 +322,7 @@ const renderIdCock = (info) => {
         ingredient14_id.addEventListener('click', () => {
             output.innerHTML = ''
             let spin = document.createElement('iframe')
-            spin.style.cssText =
-            `
-            margin-top: 150px;
-            height: 200px;
-            width: 200px;
-            `
+            spin.classList.add('spin')
             spin.setAttribute('frameborder', '0')
             spin.src = './picture/spin1.gif'
             
@@ -407,12 +335,7 @@ const renderIdCock = (info) => {
         ingredient15_id.addEventListener('click', () => {
             output.innerHTML = ''
             let spin = document.createElement('iframe')
-            spin.style.cssText =
-            `
-            margin-top: 150px;
-            height: 200px;
-            width: 200px;
-            `
+            spin.classList.add('spin')
             spin.setAttribute('frameborder', '0')
             spin.src = './picture/spin1.gif'
             
@@ -506,12 +429,7 @@ const renderCocktail = (info) => {
             let id_cock = el.idDrink
             output.innerHTML = ''
             let spin = document.createElement('iframe')
-            spin.style.cssText =
-            `
-            margin-top: 150px;
-            height: 200px;
-            width: 200px;
-            `
+            spin.classList.add('spin')
             spin.setAttribute('frameborder', '0')
             spin.src = './picture/spin1.gif'
             
@@ -529,12 +447,7 @@ const renderCocktail = (info) => {
 function loading(){
     output.innerHTML = ''
     let spin = document.createElement('iframe')
-    spin.style.cssText =
-    `
-    margin-top: 150px;
-    height: 200px;
-    width: 200px;
-    `
+    spin.classList.add('spin')
     spin.setAttribute('frameborder', '0')
     spin.src = './picture/spin1.gif'
 
